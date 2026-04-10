@@ -1,0 +1,45 @@
+# Archivos de configuración
+/config/conexion.php
+/config/.env
+/config/config.php
+
+# Logs
+/logs/*.log
+*.log
+
+# Archivos temporales
+/tmp/
+/temp/
+*.tmp
+*.cache
+
+# Uploads (imágenes subidas)
+/uploads/productos/
+/uploads/clientes/
+/uploads/temp/
+
+# IDE y sistema
+.vscode/
+.idea/
+*.sublime-*
+Thumbs.db
+.DS_Store
+
+# Archivos de respaldo
+*.bak
+*.sql
+*.zip
+*.tar.gz
+
+# Composer
+/vendor/
+composer.lock
+
+# Tests
+/tests/
+*.test.php
+
+# Archivos del sistema
+*.log
+*.cache
+*.tmp
