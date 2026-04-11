@@ -675,6 +675,7 @@ function getImagenProducto($imagen) {
                         <div class="product-info">
                             <h3 class="product-title"><?php echo htmlspecialchars($producto['nombre']); ?></h3>
                             <p class="product-description">
+<<<<<<< HEAD
                                 <?php echo htmlspecialchars(substr($producto['descripcion'] ?? 'Sin descripción', 0, 100)); ?>
                             </p>
                             
@@ -766,3 +767,6 @@ function getImagenProducto($imagen) {
     </script>
 </body>
 </html>
+=======
+                                <?php echo htmlspecialchars(substr($p
+>>>>>>> 68da360dc8507a9c707c2db05426b2585b6c513f
