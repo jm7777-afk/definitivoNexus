@@ -5,7 +5,7 @@ require_once '../config/conexion.php';
 // Si ya está logueado, redirigir según su rol
 if (isset($_SESSION['usuario_id'])) {
     if ($_SESSION['usuario_rol'] == 'admin') {
-        header('Location: ../admin/dashboard.php');
+        header('Location: ../admin/index.php');
     } else {
         header('Location: ../admin/ventas/nueva.php');
     }
